@@ -8,7 +8,7 @@
 <head runat="server">
     <title></title>
     
-       <!---bootstarp css-->
+      <!---bootstarp css-->
     <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!---datatables css-->
     <link href="datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
@@ -16,14 +16,15 @@
     <link href="fontawesome/css/all.css" rel="stylesheet" />
     <!--custom css-->
     <link href="css/StyleSheet1.css" rel="stylesheet" />
-
-    <!---jquery -->
+    <script src="Bootstrap/js/jquery.slim.min.js"></script>
+    <!---bootstarp bundlejs -->
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
     <!---popper js-->
     <script src="Bootstrap/js/popper.min.js"></script>
     <!---bootstarp js-->
     <script src="Bootstrap/js/bootstrap.min.js"></script>
-
+    <!--database--js-->
+    <script src="datatables/js/jquery.dataTables.min.js"></script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
